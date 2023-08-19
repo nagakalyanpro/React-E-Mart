@@ -1,0 +1,14 @@
+
+[
+{
+product:"Mobile",
+company: "Samsung",
+model : "Galaxy S21 Ultra"
+price : "19,999.00",
+category: "Electronics",
+description: "......"
+},
+
+{....},
+]
+like above data, create 12 different aircondition data

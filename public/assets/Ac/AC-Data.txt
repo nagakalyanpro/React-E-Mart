@@ -1,0 +1,98 @@
+[
+  {
+    "product": "Air Conditioner",
+    "company": "LG",
+    "model": "CoolTech 5000",
+    "price": "799.99",
+    "category": "Electronics",
+    "description": "Powerful 15000 BTU window air conditioner with energy-saving features."
+  },
+  {
+    "product": "AC Unit",
+    "company": "Daikin",
+    "model": "ClimateMaster Pro",
+    "price": "1299.00",
+    "category": "Electronics",
+    "description": "Advanced split-system AC with smart temperature control and quiet operation."
+  },
+  {
+    "product": "Cooling System",
+    "company": "Carrier",
+    "model": "Arctic Breeze 300",
+    "price": "899.99",
+    "category": "Electronics",
+    "description": "Ductless mini-split AC with adjustable airflow and dehumidification."
+  },
+  {
+    "product": "Air Cooler",
+    "company": "Honeywell",
+    "model": "FrostFlow XL",
+    "price": "299.50",
+    "category": "Electronics",
+    "description": "Portable evaporative cooler with large water tank for efficient cooling in dry climates."
+  },
+  {
+    "product": "Window AC",
+    "company": "Whirlpool",
+    "model": "ChillGuard 800",
+    "price": "549.00",
+    "category": "Electronics",
+    "description": "Energy-efficient window-mounted air conditioner with remote control."
+  },
+  {
+    "product": "Smart AC",
+    "company": "Nest",
+    "model": "EcoCool Smart+",
+    "price": "899.99",
+    "category": "Electronics",
+    "description": "Wi-Fi connected smart AC that adapts to your cooling preferences and schedule."
+  },
+  {
+    "product": "Inverter AC",
+    "company": "Mitsubishi",
+    "model": "SilentComfort 1200i",
+    "price": "1499.00",
+    "category": "Electronics",
+    "description": "Inverter technology AC with precise temperature control and energy efficiency."
+  },
+  {
+    "product": "Portable AC",
+    "company": "Frigidaire",
+    "model": "EZCool Portable 400",
+    "price": "399.99",
+    "category": "Electronics",
+    "description": "Easy-to-move portable air conditioner with quick installation and cooling."
+  },
+  {
+    "product": "Ducted AC",
+    "company": "Lennox",
+    "model": "PureAir Ducted 6000",
+    "price": "2499.00",
+    "category": "Electronics",
+    "description": "Whole-house ducted AC system with advanced air purification technology."
+  },
+  {
+    "product": "Wall-Mount AC",
+    "company": "Panasonic",
+    "model": "WallMaster Pro 1800",
+    "price": "749.00",
+    "category": "Electronics",
+    "description": "Wall-mounted AC with adjustable louvers and energy-saving features."
+  },
+  {
+    "product": "Split AC",
+    "company": "Haier",
+    "model": "CoolWave Split 220",
+    "price": "649.50",
+    "category": "Electronics",
+    "description": "High-performance split AC system with rapid cooling and remote control."
+  },
+  {
+    "product": "Central AC",
+    "company": "Trane",
+    "model": "ClimateCentral 5000",
+    "price": "2999.00",
+    "category": "Electronics",
+    "description": "Powerful central AC unit for large homes with zone-based temperature control."
+  }
+]

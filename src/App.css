@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.proSection {
+    display: flex;
+    background-color: white;
+}
+
+.navbar-section {
+    position: sticky;
+    top: 0;
+}
+
+.navSection {
+    display: flex;
+    width: 100%;
+    min-width: 100vw;
+    height: 80px;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.title h2 {
+    color: white;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+
+.user {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.search input {
+    width: 80%;
+    height: 2rem;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.imgBox {
+    width: 80%;
+    padding-left: 20px;
+}
+
+.proImage {
+    width: 80%;
+}
+
+.proTitle h2 {
+    margin: 10px;
+}
+
+.subMenu ul li {
+    list-style: none;
+    margin: 26px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.subMenu ul li:hover {
+    border-bottom: 2px solid white;
+    color: black;
+}
+
+.subMenu {
+    background-color: gray;
+    color: azure;
+    height: 50px;
+}
+
+.subMenu ul {
+    display: inline-flex;
+}
+
+.pageSection {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    gap: 10px;
+}
+
+.pageImg {
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+}
+
+.pageImg img {
+    width: 80%;
+}
+
+.pageImg img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.ind-image {
+    width: 500px;
+    height: 500px;
+}
+
+.ind-section {
+    display: flex;
+}
+
+.ind-image img {
+    width: 100%;
+}
+
+.ind-details {
+    padding: 20px;
+}
+
+.space {
+    margin: 10px;
+}
+
+.ind-details button {
+    background-color: orangered;
+    padding: 10px;
+    width: 10rem;
+    border-radius: 5px;
+    columns: white;
+}
+
+.ind-details button:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.fullpage {
+    display: flex;
+}
+
+.pro-selected {
+    width: 30%;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+
+.pro-selected {
+    position: fixed;
+    width: 200px;
+    top: 100;
+    left: 0;
+    height: 100vh;
+    background-color: aliceblue;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.pageSection {
+    margin-left: 220px;
+}
+
+.pro-input input {
+    margin: 5px;
+}
+
+ul li {
+    color: white;
+}
+
+.cart-section {
+    display: flex;
+    border: 3px double gray;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.cart-img img {
+    width: 50%;
+}
+
+.cart-details {
+    width: 50%;
+}
+
+.cart {
+    color: white;
+}
+
+.cart span {
+    color: orangered;
+}
+
+.cart span {
+    font-size: x-large;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.y-cart {
+    text-align: center;
+}
+
+.empty {
+    text-align: center;
+}
+
+.removeBtn {
+    padding: 10px;
+    width: 10rem;
+    background-color: rgb(241, 79, 79);
+    color: white;
+}
+
+.removeBtn:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 575px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navbar-section {
+        width: 100%;
+        max-width: 100vw;
+    }
+    .subMenu,
+    .search,
+    .user {
+        display: none;
+    }
+    .pageImg img {
+        padding-left: 30px;
+    }
+    .user .cart {
+        display: block;
+        color: white;
+    }
+    .fullpage {
+        width: 100%;
+        max-width: 100vw;
+    }
+    .pro-selected {
+        display: none;
+    }
+    .pageSection {
+        margin-left: 60px;
+        display: block;
+    }
+    .cart-section {
+        width: 60%;
+    }
+    .cart-details {
+        font-size: small;
+    }
+}
